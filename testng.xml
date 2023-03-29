@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.ninja.qa.utilities.Listeners" />
+	</listeners>
+	<test name="TutorialsNinjaTestCases">
+		<classes>
+			<class name="com.ninja.qa.testCases.RegisterTest" />
+			<class name="com.ninja.qa.testCases.LoginTest" />
+			<class name="com.ninja.qa.testCases.SearchTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
